@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="EQG-AF-kVt">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ehw-rU-UGj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <navigationController id="2I4-20-Bls" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="CiW-h7-YRM">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="htN-F0-08W" kind="relationship" relationship="rootViewController" id="YT7-MM-lBg"/>
+                    </connections>
+                </navigationController>
+            </objects>
+            <point key="canvasLocation" x="-1833" y="-4"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="7gc-4e-LkW">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Goc-Dk-eQj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="htN-F0-08W" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="aGc-08-BZj"/>
+                        <viewControllerLayoutGuide type="bottom" id="LNO-01-zG4"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="5m4-SM-ooK">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aD5-ys-XSx">
+                                <rect key="frame" x="48" y="89" width="270" height="56"/>
+                                <color key="backgroundColor" red="0.76239151999999999" green="1" blue="0.68561363880000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <state key="normal" title="manory 自适应高度">
+                                    <color key="titleColor" red="0.85759228190000003" green="0.34257026010000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="aD5-ys-XSx" firstAttribute="centerX" secondItem="5m4-SM-ooK" secondAttribute="centerX" id="LR9-X5-0Y9"/>
+                            <constraint firstItem="aD5-ys-XSx" firstAttribute="top" secondItem="aGc-08-BZj" secondAttribute="bottom" constant="50" id="VCK-8Z-okx"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="X8p-RL-Vxo"/>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="-428" y="375.56221889055473"/>
+        </scene>
+    </scenes>
+</document>
