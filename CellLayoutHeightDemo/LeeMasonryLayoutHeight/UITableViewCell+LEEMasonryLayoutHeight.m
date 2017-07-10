@@ -83,7 +83,9 @@ const void * lee_bottomOffSetToCellKey         = "lee_bottomOffSetToCellKey";
     //创建一个cell 对象 ，降低内存使用
     UITableViewCell * cell = [tableView.lee_reuserCells objectForKey:[[self class] description]];
     if (cell == nil) {
+        NSLog(@"创建cell");
         cell = [[self alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:nil];
+        [tableView.lee_reuserCells setObject:cell forKey:[[self class ] description]];
     }
     //继续回调从新配置数据
     if (configBlock) {
