@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0CB025B091FD43D6452571B9 /* libPods-CellLayoutHeightDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D06251EC6811B5A0DC13A041 /* libPods-CellLayoutHeightDemo.a */; };
+		B610ABE01F13061300770A87 /* 1814883-e8bf5c20190eb23c.gif in Resources */ = {isa = PBXBuildFile; fileRef = B610ABDF1F13061300770A87 /* 1814883-e8bf5c20190eb23c.gif */; };
 		B65B00081F11F289005B5B08 /* MasnoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B65B00071F11F289005B5B08 /* MasnoryViewController.m */; };
 		B65B00101F11F5C6005B5B08 /* LeeShowCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B65B000F1F11F5C6005B5B08 /* LeeShowCell.m */; };
 		B65B00131F11F5E1005B5B08 /* LeeShowModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B65B00121F11F5E1005B5B08 /* LeeShowModel.m */; };
@@ -30,6 +31,7 @@
 /* Begin PBXFileReference section */
 		00406ACAB77D69EBAEE21560 /* Pods-CellLayoutHeightDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CellLayoutHeightDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-CellLayoutHeightDemo/Pods-CellLayoutHeightDemo.release.xcconfig"; sourceTree = "<group>"; };
 		5655F52B144FF6A5BA30DA8B /* Pods-CellLayoutHeightDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CellLayoutHeightDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CellLayoutHeightDemo/Pods-CellLayoutHeightDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		B610ABDF1F13061300770A87 /* 1814883-e8bf5c20190eb23c.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = "1814883-e8bf5c20190eb23c.gif"; path = "../../Desktop/1814883-e8bf5c20190eb23c.gif"; sourceTree = "<group>"; };
 		B65B00001F11E08F005B5B08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B65B00061F11F289005B5B08 /* MasnoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MasnoryViewController.h; path = ../../MasnoryViewController.h; sourceTree = "<group>"; };
 		B65B00071F11F289005B5B08 /* MasnoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MasnoryViewController.m; path = ../../MasnoryViewController.m; sourceTree = "<group>"; };
@@ -150,6 +152,7 @@
 		B65BFFEE1F11E08F005B5B08 /* CellLayoutHeightDemo */ = {
 			isa = PBXGroup;
 			children = (
+				B610ABDF1F13061300770A87 /* 1814883-e8bf5c20190eb23c.gif */,
 				B65B00251F1232BF005B5B08 /* 1.png */,
 				B65B00261F1232BF005B5B08 /* 2.png */,
 				B65B00271F1232BF005B5B08 /* 3.png */,
@@ -250,6 +253,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B610ABE01F13061300770A87 /* 1814883-e8bf5c20190eb23c.gif in Resources */,
 				B65BFFFF1F11E08F005B5B08 /* LaunchScreen.storyboard in Resources */,
 				B65B002A1F1232BF005B5B08 /* 1.png in Resources */,
 				B65B002B1F1232BF005B5B08 /* 2.png in Resources */,
