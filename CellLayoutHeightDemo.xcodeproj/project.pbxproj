@@ -11,7 +11,6 @@
 		B65B00081F11F289005B5B08 /* MasnoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B65B00071F11F289005B5B08 /* MasnoryViewController.m */; };
 		B65B00101F11F5C6005B5B08 /* LeeShowCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B65B000F1F11F5C6005B5B08 /* LeeShowCell.m */; };
 		B65B00131F11F5E1005B5B08 /* LeeShowModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B65B00121F11F5E1005B5B08 /* LeeShowModel.m */; };
-		B65B001C1F120B59005B5B08 /* UITableViewCell+LEEMasonryLayoutHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = B65B001B1F120B59005B5B08 /* UITableViewCell+LEEMasonryLayoutHeight.m */; };
 		B65B001F1F120B7B005B5B08 /* UITableView+LEECacheHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = B65B001E1F120B7B005B5B08 /* UITableView+LEECacheHeight.m */; };
 		B65B00221F121E3D005B5B08 /* FPSDisplay.m in Sources */ = {isa = PBXBuildFile; fileRef = B65B00211F121E3D005B5B08 /* FPSDisplay.m */; };
 		B65B00241F12234B005B5B08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B65B00231F12234B005B5B08 /* Main.storyboard */; };
@@ -25,6 +24,7 @@
 		B65BFFF71F11E08F005B5B08 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B65BFFF61F11E08F005B5B08 /* ViewController.m */; };
 		B65BFFFC1F11E08F005B5B08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B65BFFFB1F11E08F005B5B08 /* Assets.xcassets */; };
 		B65BFFFF1F11E08F005B5B08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B65BFFFD1F11E08F005B5B08 /* LaunchScreen.storyboard */; };
+		B6E392BA1F130C9A0002BDDD /* UITableViewCell+LeeMasonryLayoutHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E392B91F130C9A0002BDDD /* UITableViewCell+LeeMasonryLayoutHeight.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,8 +37,6 @@
 		B65B000F1F11F5C6005B5B08 /* LeeShowCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeeShowCell.m; sourceTree = "<group>"; };
 		B65B00111F11F5E1005B5B08 /* LeeShowModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeeShowModel.h; sourceTree = "<group>"; };
 		B65B00121F11F5E1005B5B08 /* LeeShowModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeeShowModel.m; sourceTree = "<group>"; };
-		B65B001A1F120B59005B5B08 /* UITableViewCell+LEEMasonryLayoutHeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UITableViewCell+LEEMasonryLayoutHeight.h"; path = "CellLayoutHeightDemo/LeeMasonryLayoutHeightDemo/UITableViewCell+LEEMasonryLayoutHeight.h"; sourceTree = SOURCE_ROOT; };
-		B65B001B1F120B59005B5B08 /* UITableViewCell+LEEMasonryLayoutHeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UITableViewCell+LEEMasonryLayoutHeight.m"; path = "CellLayoutHeightDemo/LeeMasonryLayoutHeightDemo/UITableViewCell+LEEMasonryLayoutHeight.m"; sourceTree = SOURCE_ROOT; };
 		B65B001D1F120B7B005B5B08 /* UITableView+LEECacheHeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+LEECacheHeight.h"; sourceTree = "<group>"; };
 		B65B001E1F120B7B005B5B08 /* UITableView+LEECacheHeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+LEECacheHeight.m"; sourceTree = "<group>"; };
 		B65B00201F121E3D005B5B08 /* FPSDisplay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FPSDisplay.h; sourceTree = "<group>"; };
@@ -57,6 +55,8 @@
 		B65BFFF61F11E08F005B5B08 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		B65BFFFB1F11E08F005B5B08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B65BFFFE1F11E08F005B5B08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B6E392B81F130C9A0002BDDD /* UITableViewCell+LeeMasonryLayoutHeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+LeeMasonryLayoutHeight.h"; sourceTree = "<group>"; };
+		B6E392B91F130C9A0002BDDD /* UITableViewCell+LeeMasonryLayoutHeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+LeeMasonryLayoutHeight.m"; sourceTree = "<group>"; };
 		D06251EC6811B5A0DC13A041 /* libPods-CellLayoutHeightDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CellLayoutHeightDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -84,10 +84,10 @@
 		B65B00091F11F546005B5B08 /* LeeMasonryLayoutHeight */ = {
 			isa = PBXGroup;
 			children = (
-				B65B001A1F120B59005B5B08 /* UITableViewCell+LEEMasonryLayoutHeight.h */,
-				B65B001B1F120B59005B5B08 /* UITableViewCell+LEEMasonryLayoutHeight.m */,
 				B65B001D1F120B7B005B5B08 /* UITableView+LEECacheHeight.h */,
 				B65B001E1F120B7B005B5B08 /* UITableView+LEECacheHeight.m */,
+				B6E392B81F130C9A0002BDDD /* UITableViewCell+LeeMasonryLayoutHeight.h */,
+				B6E392B91F130C9A0002BDDD /* UITableViewCell+LeeMasonryLayoutHeight.m */,
 			);
 			path = LeeMasonryLayoutHeight;
 			sourceTree = "<group>";
@@ -320,11 +320,11 @@
 				B65B00131F11F5E1005B5B08 /* LeeShowModel.m in Sources */,
 				B65B00101F11F5C6005B5B08 /* LeeShowCell.m in Sources */,
 				B65BFFF41F11E08F005B5B08 /* AppDelegate.m in Sources */,
-				B65B001C1F120B59005B5B08 /* UITableViewCell+LEEMasonryLayoutHeight.m in Sources */,
 				B65B00081F11F289005B5B08 /* MasnoryViewController.m in Sources */,
 				B65B00221F121E3D005B5B08 /* FPSDisplay.m in Sources */,
 				B65B001F1F120B7B005B5B08 /* UITableView+LEECacheHeight.m in Sources */,
 				B65BFFF11F11E08F005B5B08 /* main.m in Sources */,
+				B6E392BA1F130C9A0002BDDD /* UITableViewCell+LeeMasonryLayoutHeight.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
