@@ -25,8 +25,7 @@
     self.window.rootViewController = nv;
     [self.window makeKeyAndVisible];
     [FPSDisplay shareFPSDisplay];
-    NSLog(@"test");
-    
+
     return YES;
 }
 
