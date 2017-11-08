@@ -28,6 +28,12 @@
     [self.view addSubview:_masonryBtn];
     [self.view addSubview:_masonryBtn];
     NSLog(@"test dev");
+    NSLog(@"test dev");
+    NSLog(@"test dev");
+    NSLog(@"test dev");
+    NSLog(@"test dev");
+    NSLog(@"test dev");
+
     [_masonryBtn addTarget:self action:@selector(manroyClick:) forControlEvents:UIControlEventTouchUpInside];
     [_masonryBtn mas_makeConstraints:^(MASConstraintMaker *make) {
         make.centerX.mas_equalTo(self.view);
