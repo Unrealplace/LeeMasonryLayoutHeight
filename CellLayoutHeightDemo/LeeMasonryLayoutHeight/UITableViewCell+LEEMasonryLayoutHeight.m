@@ -13,7 +13,6 @@
 NSString * const kLEECacheUniqueKey           = @"kLEECacheUnipueKey";
 NSString * const kLEECacheHeightKey            = @"kLEECacheHeightKey";
 NSString * const kLEERecalcutateForStateKey = @"kLEERecalcutateForStateKey";
-//NSString * const kLEECacheForTableViewkey  =  @"kLEECacheForTableViewkey";
 
 const void * lee_bottomOffSetToCellKey         = "lee_bottomOffSetToCellKey";
 
