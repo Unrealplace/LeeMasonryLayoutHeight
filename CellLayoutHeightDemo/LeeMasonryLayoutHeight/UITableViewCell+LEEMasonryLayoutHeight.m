@@ -13,7 +13,7 @@
 NSString * const kLEECacheUniqueKey           = @"kLEECacheUnipueKey";
 NSString * const kLEECacheHeightKey            = @"kLEECacheHeightKey";
 NSString * const kLEERecalcutateForStateKey = @"kLEERecalcutateForStateKey";
-NSString * const kLEECacheForTableViewkey  =  @"kLEECacheForTableViewkey";
+//NSString * const kLEECacheForTableViewkey  =  @"kLEECacheForTableViewkey";
 
 const void * lee_bottomOffSetToCellKey         = "lee_bottomOffSetToCellKey";
 
@@ -38,7 +38,7 @@ const void * lee_bottomOffSetToCellKey         = "lee_bottomOffSetToCellKey";
             NSDictionary * cacheKeys = cacheHeightBlock();
             NSString * uniqueKey       = cacheKeys[kLEECacheUniqueKey];//获取唯一标识的key
             NSString * heightKey        = cacheKeys[kLEECacheHeightKey];//获取高度的key
-            NSString * shouldUpdate = cacheKeys[kLEECacheForTableViewkey];//获取是否要更新的key
+            NSString * shouldUpdate = cacheKeys[kLEERecalcutateForStateKey];//获取是否要更新的key
             NSMutableDictionary * cacheDic = tableView.lee_CacheCellHeightDic[uniqueKey];//通过唯一标识获取缓存字典文件
             NSString * cacheHeight   = cacheDic[heightKey];//从缓存字典中读取高度
             //如果缓存的高度为空 或者缓存大的高度字典个数为0 或者需要从新更新布局 ： 就从新配置获取高度
